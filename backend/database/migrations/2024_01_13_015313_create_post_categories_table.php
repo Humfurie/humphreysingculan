@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('post_categories', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(\Domain\Posts\Models\Posts::class);
+            $table->foreignIdFor(\Domain\Posts\Models\Post::class);
             $table->foreignIdFor(\Domain\Categories\Models\Category::class);
         });
     }

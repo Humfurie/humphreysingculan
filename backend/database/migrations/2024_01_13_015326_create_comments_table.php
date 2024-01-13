@@ -13,7 +13,12 @@ return new class extends Migration
     {
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
+            $table->text('content');
+            $table->foreignIdFor(\Domain\Posts\Models\Post::class);
+            $table->foreignIdFor(\Domain\Users\Models\User::class);
+            $table->foreignIdFor(\Domain\Comments\Models\Comment::class);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

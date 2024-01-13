@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('user_roles', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(\Domain\Users\Models\User::class);
-            $table->foreignIdFor(\Domain\Roles\Models\Roles::class);
+            $table->foreignIdFor(\Domain\Roles\Models\Role::class);
         });
     }
 

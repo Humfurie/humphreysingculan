@@ -1,11 +1,11 @@
 <?php
 
-namespace Domain\Reactions\Models;
+namespace Domain\Permissions\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Reactions extends Model
+class Permission extends Model
 {
     use HasFactory;
 }

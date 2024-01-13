@@ -1,11 +1,11 @@
 <?php
 
-namespace Domain\Images\Models;
+namespace Domain\Posts\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Images extends Model
+class Post extends Model
 {
     use HasFactory;
 }

@@ -22,6 +22,7 @@ return new class extends Migration
             $table->enum('status', ['draft', 'published','unpublished', 'archived', 'pending' ]);
             $table->string('tags')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
