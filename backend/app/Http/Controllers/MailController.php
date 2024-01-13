@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use App\Notifications\SendMail;
-use Illuminate\Http\Request;
+use Domain\Users\Models\User;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Notification;
 
