@@ -1,7 +1,8 @@
 <?php
 
-namespace Database\Factories;
+namespace Domain\Users\database\factories;
 
+use Domain\Users\Enums\UserStatusEnum;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
@@ -26,6 +27,15 @@ class UserFactory extends Factory
             'email_verified_at' => now(),
             'password' => static::$password ??= Hash::make('password'),
             'remember_token' => Str::random(10),
+            'username' => fake()->userName,
+            'first_name' => fake()->firstName,
+            'last_name' => fake()->lastName,
+            'middle_name' => fake()->lastName,
+            'bio' => fake()->sentence,
+            'status' => fake()->randomElement(UserStatusEnum::class),
+            'last_login_date' => now(),
+            'verification_token' => Str::random(16),
+            'remember_token' => Hash::make(Str),
         ];
     }
 
