@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Mail;
 
+use App\Http\Controllers\Controller;
 use App\Notifications\SendMail;
 use Domain\Users\Models\User;
 use Illuminate\Notifications\Notifiable;

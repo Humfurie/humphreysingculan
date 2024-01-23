@@ -23,7 +23,7 @@ return new class extends Migration
             $table->text('bio');
             $table->enum('status', ['active', 'suspended', 'inactive']);
             $table->timestamp('registration_date')->default(now());
-            $table->timestamp('last_login');
+            $table->timestamp('last_login')->nullable();
             $table->rememberToken();
             $table->timestamps();
             $table->softDeletes();

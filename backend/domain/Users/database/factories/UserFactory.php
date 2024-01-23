@@ -35,7 +35,6 @@ class UserFactory extends Factory
             'status' => fake()->randomElement(UserStatusEnum::class),
             'last_login_date' => now(),
             'verification_token' => Str::random(16),
-            'remember_token' => Hash::make(Str),
         ];
     }
 
@@ -44,8 +43,43 @@ class UserFactory extends Factory
      */
     public function unverified(): static
     {
-        return $this->state(fn (array $attributes) => [
+        return $this->state([
             'email_verified_at' => null,
+        ]);
+    }
+
+    public function rememberToken(): static
+    {
+        return $this->state([
+           'remember_token' => null
+        ]);
+    }
+
+    public function activeStatus(): static
+    {
+        return $this->state([
+            'status' => UserStatusEnum::ACTIVE
+        ]);
+    }
+
+    public function inactiveStatus(): static
+    {
+        return $this->state([
+            'status' => UserStatusEnum::INACTIVE
+        ]);
+    }
+
+    public function suspendedStatus(): static
+    {
+        return $this->state([
+            'status' => UserStatusEnum::SUSPENDED
+        ]);
+    }
+
+    public function bannedStatus(): static
+    {
+        return $this->state([
+            'status' => UserStatusEnum::BANNED
         ]);
     }
 }

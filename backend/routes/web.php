@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/mail', [\App\Http\Controllers\MailController::class, "store"])->name('mail');
+Route::post('/mail', [\App\Http\Controllers\Mail\MailController::class, "store"])->name('mail');
