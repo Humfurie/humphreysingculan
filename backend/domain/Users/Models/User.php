@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Models;
+namespace Domain\Users\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Domain\Users\Enums\UserStatusEnum;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -19,8 +20,18 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'username',
         'email',
         'password',
+        'first_name',
+        'last_name',
+        'middle_name',
+        'email_verified_at',
+        'bio',
+        'status',
+        'last_login_date',
+        'verification_token',
+        'remember_token',
     ];
 
     /**
@@ -30,6 +41,7 @@ class User extends Authenticatable
      */
     protected $hidden = [
         'password',
+        'verification_token',
         'remember_token',
     ];
 
@@ -41,5 +53,8 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
+        'registration_date' => 'datetime',
+        'last_login_date' => 'datetime',
+        'status' => UserStatusEnum::class,
     ];
 }

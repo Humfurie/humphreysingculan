@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Mail;
 
-use App\Models\User;
+use App\Http\Controllers\Controller;
 use App\Notifications\SendMail;
-use Illuminate\Http\Request;
+use Domain\Users\Models\User;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Notification;
 
