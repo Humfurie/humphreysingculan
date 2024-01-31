@@ -20,10 +20,10 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->text('bio');
-            $table->enum('status', ['active', 'suspended', 'inactive']);
+            $table->text('bio')->nullable();
+            $table->enum('status', ['active', 'suspended', 'inactive'])->default('active');
             $table->timestamp('registration_date')->default(now());
-            $table->timestamp('last_login')->nullable();
+            $table->timestamp('last_login')->default(now());
             $table->rememberToken();
             $table->timestamps();
             $table->softDeletes();

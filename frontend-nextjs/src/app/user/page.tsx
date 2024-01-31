@@ -1,10 +1,8 @@
 
-const UsersPage = () => {
+export default function UsersPage() {
   return (
       <div>
         hello user!
       </div>
   )
 }
-
-export default UsersPage

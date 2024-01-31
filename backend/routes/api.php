@@ -18,5 +18,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::middleware('guest')->get('/wawa', function (){
+    return \Domain\Users\Models\User::find(1);
+});
 
-//require __DIR__ . "/api/backend";
+$files = glob(__DIR__.'/api/Auth/*.php');
+
+foreach ($files as $file) {
+    require_once $file;
+}

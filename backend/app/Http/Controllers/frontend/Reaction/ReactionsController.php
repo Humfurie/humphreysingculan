@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Reaction;
+namespace App\Http\Controllers\frontend\Reaction;
 
 use App\Http\Controllers\Controller;
 
