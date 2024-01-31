@@ -1,23 +1,21 @@
 <?php
 
-namespace App\Http\Controllers\frontend\User;
+namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use Domain\Auth\Requests\RegistrationFormRequest;
 use Domain\Users\Models\User;
-use Domain\Users\Requests\UsersRegistrationFormRequest;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
-class UsersRegistrationController extends Controller
+class RegistrationController extends Controller
 {
-    public function register(UsersRegistrationFormRequest $request): \Illuminate\Http\JsonResponse
+    public function register(RegistrationFormRequest $request): \Illuminate\Http\JsonResponse
     {
         $user = User::create([
-            'username' => $request->username,
-            'email' => $request->email,
+            'username' => Str::lower($request->username),
+            'email' => Str::lower($request->email),
             'password' => $request->password,
             'first_name' => $request->first_name,
             'last_name' => $request->last_name,
@@ -30,11 +28,11 @@ class UsersRegistrationController extends Controller
 
         Auth::login($user);
 
-        $token = $user->createToken($user->password)->plainTextToken;
+        $token = $user->createToken($user->password, ['*'], now()->addDay(1))->plainTextToken;
 
         return response()->json([
             'message' => "Registration Successful",
             'token' => $token,
-        ]);
+        ], 200);
     }
 }

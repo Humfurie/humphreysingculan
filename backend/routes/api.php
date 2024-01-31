@@ -15,11 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
-
-Route::middleware('guest')->get('/wawa', function (){
-    return \Domain\Users\Models\User::find(1);
+    return "wawa";
 });
 
 $files = glob(__DIR__.'/api/Auth/*.php');

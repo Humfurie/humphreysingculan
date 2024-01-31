@@ -11,6 +11,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 /**
  * @method static create(array $array)
+ * @method static \Illuminate\Database\Query\Builder whereEmail(string $email)
  */
 class User extends Authenticatable
 {
@@ -43,6 +44,5 @@ class User extends Authenticatable
         'registration_date' => 'datetime',
         'last_login_date' => 'datetime',
         'status' => UserStatusEnum::class,
-        'remember_token' => 'boolean',
     ];
 }
