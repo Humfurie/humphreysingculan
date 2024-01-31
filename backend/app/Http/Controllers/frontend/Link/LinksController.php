@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Link;
+namespace App\Http\Controllers\frontend\Link;
 
 use App\Http\Controllers\Controller;
 

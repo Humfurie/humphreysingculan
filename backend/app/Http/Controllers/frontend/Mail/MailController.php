@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Mail;
+namespace App\Http\Controllers\frontend\Mail;
 
 use App\Http\Controllers\Controller;
 use App\Notifications\SendMail;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Comment;
+namespace App\Http\Controllers\frontend\Comment;
 
 use App\Http\Controllers\Controller;
 
