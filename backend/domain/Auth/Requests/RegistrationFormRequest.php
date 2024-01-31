@@ -1,10 +1,9 @@
 <?php
 
-namespace Domain\Users\Requests;
+namespace Domain\Auth\Requests;
 
 use Domain\Users\Models\User;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Support\Str;
 use Illuminate\Validation\Rules;
 
 /**
@@ -17,7 +16,7 @@ use Illuminate\Validation\Rules;
  * @property string $bio
  * @property boolean $remember_me
  */
-class UsersRegistrationFormRequest extends FormRequest
+class RegistrationFormRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -35,9 +34,9 @@ class UsersRegistrationFormRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:' . User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
-            'username' => ['required', 'string', 'lowercase', 'max:255'],
+            'username' => ['required', 'string', 'max:255'],
             'first_name' => ['required', 'string', 'max:255'],
             'last_name' => ['required', 'string', 'max:255'],
             'middle_name' => ['string', 'max:255'],
@@ -53,6 +52,7 @@ class UsersRegistrationFormRequest extends FormRequest
             'username.required' => 'The username field is required',
             'first_name.required' => 'The first_name field is required',
             'last_name.required' => 'The last_name field is required',
+            'password.required' => 'The password field is required'
         ];
     }
 }
