@@ -8,6 +8,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
+/**
+ * @property int $id
+ * @property string $name
+ * @method static \Illuminate\Database\Query\Builder create(array $array)
+ */
 class Role extends Model
 {
     use HasFactory;
@@ -17,6 +22,11 @@ class Role extends Model
         'slug',
         'description'
     ];
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 
     public function users(): BelongsToMany
     {

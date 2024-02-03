@@ -41,7 +41,7 @@ class RegistrationFormRequest extends FormRequest
             'last_name' => ['required', 'string', 'max:255'],
             'middle_name' => ['string', 'max:255'],
             'bio' => ['string', 'max:255'],
-            'remember_me' => ['boolean'],
+            'remember_me' => ['boolean', 'nullable'],
         ];
     }
 
