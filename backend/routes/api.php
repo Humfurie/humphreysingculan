@@ -18,8 +18,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return "wawa";
 });
 
-$files = glob(__DIR__.'/api/Auth/*.php');
+$route_files = [
+    $auth_files = glob(__DIR__ . '/api/Auth/*.php'),
+    $frontend_files = glob(__DIR__ . '/api/frontend/*.php'),
+];
 
-foreach ($files as $file) {
-    require_once $file;
+foreach ($route_files as $files) {
+    foreach ($files as $file) {
+        require_once $file;
+    }
 }

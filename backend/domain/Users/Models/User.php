@@ -3,14 +3,16 @@
 namespace Domain\Users\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Domain\Roles\Models\Role;
 use Domain\Users\Enums\UserStatusEnum;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
 /**
- * @method static create(array $array)
+ * @method static \Illuminate\Database\Query\Builder create(array $array)
  * @method static \Illuminate\Database\Query\Builder whereEmail(string $email)
  */
 class User extends Authenticatable
@@ -45,4 +47,9 @@ class User extends Authenticatable
         'last_login_date' => 'datetime',
         'status' => UserStatusEnum::class,
     ];
+
+    public function roles(): BelongsToMany
+    {
+        return $this->belongsToMany(Role::class, 'user_roles');
+    }
 }
