@@ -1,9 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\frontend\User;
+namespace App\Http\Controllers\Frontend\User;
 
 use Domain\Users\Models\User;
-use Illuminate\Support\Collection;
 
 class UsersController
 {

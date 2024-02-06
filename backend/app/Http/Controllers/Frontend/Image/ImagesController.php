@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\frontend\Image;
+namespace App\Http\Controllers\Frontend\Image;
 
 use App\Http\Controllers\Controller;
 

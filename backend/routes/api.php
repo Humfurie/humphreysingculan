@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 $route_files = [
     $auth_files = glob(__DIR__ . '/api/Auth/*.php'),
-    $frontend_files = glob(__DIR__ . '/api/frontend/*.php'),
+    $frontend_files = glob(__DIR__ . '/api/*.php'),
 ];
 
 foreach ($route_files as $files) {

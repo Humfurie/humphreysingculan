@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('title');
             $table->text('content');
             $table->foreignIdFor(\Domain\Users\Models\User::class);
-            $table->foreignIdFor(\Domain\Categories\Models\Category::class);
             $table->timestamp('publication_date');
             $table->string('slug');
             $table->enum('status', ['draft', 'published','unpublished', 'archived', 'pending' ]);
