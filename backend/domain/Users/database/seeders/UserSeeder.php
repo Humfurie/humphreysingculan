@@ -5,6 +5,7 @@ namespace Domain\Users\database\seeders;
 use Domain\Roles\Models\Role;
 use Domain\Users\database\factories\UserFactory;
 use Illuminate\Database\Seeder;
+use PragmaRX\Google2FA\Google2FA;
 
 class UserSeeder extends Seeder
 {
@@ -15,13 +16,14 @@ class UserSeeder extends Seeder
     {
         //admin
         $role = Role::where('name', 'admin')->first();
+        $google2fa = new Google2FA();
         $user = UserFactory::new([
             'username' => 'humfurie',
             'email' => 'humfurie@gmail.com',
             'password' => 'Humfurie',
-            'first_name' => 'Humphrey',
-            'last_name' => 'Singculan',
-            'middle_name' => 'Tajanlangit',
+            'firstname' => 'Humphrey',
+            'lastname' => 'Singculan',
+            'middlename' => 'Tajanlangit',
             'bio' => 'I am what I am',
         ])
             ->verified()

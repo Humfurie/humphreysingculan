@@ -26,10 +26,10 @@ class UserFactory extends Factory
         return [
             'username' => fake()->userName,
             'email' => fake()->unique()->safeEmail(),
-            'last_name' => fake()->lastName,
-            'middle_name' => fake()->lastName,
+            'lastname' => fake()->lastName,
+            'middlename' => fake()->lastName,
             'password' => Hash::make('password'),
-            'first_name' => fake()->firstName,
+            'firstname' => fake()->firstName,
             'bio' => fake()->sentence,
         ];
     }

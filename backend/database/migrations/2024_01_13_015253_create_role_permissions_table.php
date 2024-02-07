@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('role_permissions', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(\Domain\Roles\Models\Role::class);
-            $table->foreignIdFor(\Domain\Permissions\Models\Permission::class);
+            $table->foreignIdFor(\Domain\Roles\Models\Role::class)->constrained();
+            $table->foreignIdFor(\Domain\Permissions\Models\Permission::class)->constrained();
         });
     }
 

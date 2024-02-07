@@ -123,6 +123,17 @@
       <path value="$PROJECT_DIR$/backend/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/backend/vendor/psr/log" />
       <path value="$PROJECT_DIR$/backend/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/backend/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/backend/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/jetstream" />
+      <path value="$PROJECT_DIR$/backend/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/backend/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/backend/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/backend/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/backend/vendor/pragmarx/google2fa-laravel" />
+      <path value="$PROJECT_DIR$/backend/vendor/pragmarx/google2fa-qrcode" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
