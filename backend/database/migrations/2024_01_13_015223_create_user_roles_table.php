@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignIdFor(\Domain\Users\Models\User::class)->constrained();
             $table->foreignIdFor(\Domain\Roles\Models\Role::class)->constrained();
+            $table->timestamps();
         });
     }
 
@@ -23,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('user_roes');
+        Schema::dropIfExists('user_roles');
     }
 };

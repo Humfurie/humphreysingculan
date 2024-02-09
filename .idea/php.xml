@@ -134,6 +134,9 @@
       <path value="$PROJECT_DIR$/backend/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/backend/vendor/pragmarx/google2fa-laravel" />
       <path value="$PROJECT_DIR$/backend/vendor/pragmarx/google2fa-qrcode" />
+      <path value="$PROJECT_DIR$/backend/vendor/blade-ui-kit/blade-icons" />
+      <path value="$PROJECT_DIR$/backend/vendor/codeat3/blade-eos-icons" />
+      <path value="$PROJECT_DIR$/backend/vendor/blade-ui-kit/blade-heroicons" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

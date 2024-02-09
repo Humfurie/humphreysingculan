@@ -18,36 +18,37 @@
     @livewireStyles
 </head>
 <body class="font-sans antialiased">
-{{--        <x-banner />--}}
 
 <div class="min-h-screen bg-gray-100">
-    @livewire('navigation-menu')
+    <section class="lg:hidden">
+        <livewire:navigation-menu/>
+    </section>
 
     <!-- Page Heading -->
     @if (isset($header))
-        <header class="bg-white shadow">
+        <div class="bg-white shadow lg:hidden">
             <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                 {{ $header }}
             </div>
-        </header>
+        </div>
     @endif
 
-    <div class="flex py-4">
+    <div class="flex p-6 min-w-full min-h-full max-w-full max-h-full mx-auto 2xl:max-w-8xl">
+        <livewire:components.side-bar/>
+        <div class="flex flex-col px-4 lg:ml-[21rem] xl:ml-[23.5rem] w-full h-full">
+            @if (isset($header))
+                <div class="bg-white overflow-hidden shadow-xl rounded-lg hidden lg:block">
+                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                        {{ $header }}
+                    </div>
+                </div>
+            @endif
 
-        <aside class="bg-white overflow-hidden shadow-xl sm:rounded-lg w-1/5">
-            <!-- Sidebar content goes here -->
-            <ul>
-                <li><a href="">Menu Item 1</a></li>
-                <li><a href="#">Menu Item 2</a></li>
-                <!-- Add more menu items as needed -->
-            </ul>
-        </aside>
-
-        <!-- Page Content -->
-        <main class="w-4/5">
-            {{ $slot }}
-        </main>
-
+            <!-- Page Content -->
+            <main class="py-2">
+                {{ $slot }}
+            </main>
+        </div>
     </div>
 </div>
 

@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\frontend\Role\RolesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,12 +29,12 @@ Route::middleware([
     })->name('dashboard');
 });
 
-$object = 'RolesController';
-$namespace = 'App\Http\Controllers\frontend\Role';
+$route_files = [
+    $frontend_files = glob(__DIR__ . '/web/*.php'),
+];
 
-
-Route::controller($namespace . '\\' . class_basename($object))
-    ->group(function () {
-        $get = 'get';
-        Route::get('index', 'index');
-    });
+foreach ($route_files as $files) {
+    foreach ($files as $file) {
+        require_once $file;
+    }
+}
