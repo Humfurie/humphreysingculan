@@ -26,11 +26,11 @@
 
     <!-- Page Heading -->
     @if (isset($header))
-        <div class="bg-white shadow lg:hidden">
+        <header class="bg-white shadow lg:hidden">
             <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                 {{ $header }}
             </div>
-        </div>
+        </header>
     @endif
 
     <div class="flex p-6 min-w-full min-h-full max-w-full max-h-full mx-auto 2xl:max-w-8xl">

@@ -137,6 +137,9 @@
       <path value="$PROJECT_DIR$/backend/vendor/blade-ui-kit/blade-icons" />
       <path value="$PROJECT_DIR$/backend/vendor/codeat3/blade-eos-icons" />
       <path value="$PROJECT_DIR$/backend/vendor/blade-ui-kit/blade-heroicons" />
+      <path value="$PROJECT_DIR$/backend/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/backend/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/backend/vendor/_laravel_idea" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

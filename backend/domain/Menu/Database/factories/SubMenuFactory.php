@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Model>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Domain\Menu\Models\SubMenu>
  */
 class SubMenuFactory extends Factory
 {
