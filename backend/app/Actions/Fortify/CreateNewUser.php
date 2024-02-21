@@ -2,7 +2,7 @@
 
 namespace App\Actions\Fortify;
 
-use Domain\Users\Models\User;
+use App\Domain\Users\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Laravel\Fortify\Contracts\CreatesNewUsers;

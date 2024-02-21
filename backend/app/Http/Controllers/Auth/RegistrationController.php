@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Domain\Auth\Requests\RegistrationFormRequest;
+use App\Domain\Users\Models\User;
 use App\Http\Controllers\Controller;
-use Domain\Auth\Requests\RegistrationFormRequest;
-use Domain\Users\Models\User;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;

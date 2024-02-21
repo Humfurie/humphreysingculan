@@ -1,10 +1,51 @@
-<div class="w-full h-full">
+<div class="w-full h-full"
+     x-data="{
+     create:false,
+     }"
+>
     <div class="flex flex-col bg-white overflow-hidden shadow-xl sm:rounded-lg">
-        <div class="p-8 flex justify-end">
-            <a href="{{route("$resource.create")}}"
-               class="bg-cyan-800 text-white align-middle select-none font-sans font-bold text-center uppercase transition-all text-xs py-3 px-6
+        <div class="p-8 flex flex-col">
+            <div class="">
+                <button
+                    x-show="!create"
+                    @click="create = !create"
+                    type="button"
+                    class="bg-cyan-800 text-white align-middle select-none font-sans font-bold text-center uppercase transition-all text-xs py-3 px-6
                    rounded-lg shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none
-                   active:opacity-[0.85] active:shadow-none flex items-center gap-3 hover:bg-orange-200 dark:hover:text-black">Create</a>
+                   active:opacity-[0.85] active:shadow-none flex items-center gap-3 hover:bg-orange-200 dark:hover:text-black">
+                    Create
+                </button>
+                <button
+                    x-show="create"
+                    @click="create = !create"
+                    type="button"
+                    class="bg-cyan-800 text-white align-middle select-none font-sans font-bold text-center uppercase transition-all text-xs py-3 px-6
+                   rounded-lg shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none
+                   active:opacity-[0.85] active:shadow-none flex items-center gap-3 hover:bg-orange-200 dark:hover:text-black">
+                    Close
+                </button>
+            </div>
+            <div x-show="create"
+                 x-transition:enter.duration.500ms
+                 x-transition:leave.duration.400ms>
+                <x-form submit="save">
+                    <x-slot name="form">
+                        <div class="col-span-4">
+                            <x-label for="name" value="{{ __('Menu Name') }}"/>
+                            <x-input id="name" type="text" class="mt-1 block w-full" wire:model="name"
+                                     autocomplete="name"/>
+                            <x-input-error for="name" class="mt-2"/>
+                        </div>
+                        <x-action-message class="me-3" on="saved">
+                            {{ __('Saved.') }}
+                        </x-action-message>
+
+                        <x-button class="justify-center">
+                            {{ __('Save') }}
+                        </x-button>
+                    </x-slot>
+                </x-form>
+            </div>
         </div>
         <table class="w-full text-sm text-left rtl:text-right text-gray-500">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50">

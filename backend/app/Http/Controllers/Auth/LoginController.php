@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Domain\Auth\Requests\LoginFormRequest;
+use App\Domain\Users\Models\User;
 use App\Http\Controllers\Controller;
-use Domain\Auth\Requests\LoginFormRequest;
-use Domain\Users\Models\User;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

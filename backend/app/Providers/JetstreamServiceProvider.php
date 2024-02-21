@@ -3,9 +3,9 @@
 namespace App\Providers;
 
 use App\Actions\Jetstream\DeleteUser;
-use Domain\Users\Models\User;
-use Illuminate\Support\Facades\Hash;
+use App\Domain\Users\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Fortify\Fortify;
 use Laravel\Jetstream\Jetstream;

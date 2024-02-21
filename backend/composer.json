@@ -14,7 +14,8 @@
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "livewire/livewire": "^3.0",
-        "pragmarx/google2fa-laravel": "^2.1"
+        "pragmarx/google2fa-laravel": "^2.1",
+        "stancl/tenancy": "^3.7"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.9",
@@ -28,7 +29,6 @@
     },
     "autoload": {
         "psr-4": {
-            "Domain\\": "domain/",
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"

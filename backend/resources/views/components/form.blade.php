@@ -3,7 +3,7 @@
 <div {{ $attributes->merge(['class' => 'md:grid md:grid-cols-2 md:gap-6']) }}>
     <div class="md:col-span-1 flex justify-between">
         <div class="px-4 sm:px-0">
-            <h3 class="text-lg font-medium text-gray-900">{{ $title }}</h3>
+            <h3 class="text-lg font-medium text-gray-900">{{ $title ?? "" }}</h3>
         </div>
 
         <div class="px-4 sm:px-0">

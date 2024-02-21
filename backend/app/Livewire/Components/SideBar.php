@@ -2,7 +2,7 @@
 
 namespace App\Livewire\Components;
 
-use Domain\Menu\Models\Menu;
+use App\Domain\Menu\Models\Menu;
 use Livewire\Component;
 
 class SideBar extends Component

@@ -15,11 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('content');
-            $table->foreignIdFor(\Domain\Users\Models\User::class);
-            $table->foreignIdFor(\Domain\Categories\Models\Category::class);
+            $table->foreignIdFor(\App\Domain\Users\Models\User::class);
+            $table->foreignIdFor(\App\Domain\Categories\Models\Category::class);
             $table->timestamp('publication_date');
             $table->string('slug');
-            $table->enum('status', ['draft', 'published','unpublished', 'archived', 'pending' ]);
+            $table->enum('status', ['draft', 'published', 'unpublished', 'archived', 'pending']);
             $table->string('tags')->nullable();
             $table->timestamps();
             $table->softDeletes();

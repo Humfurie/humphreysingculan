@@ -2,7 +2,7 @@
 
 namespace App\Livewire\Menu;
 
-use Domain\Menu\Models\Menu;
+use App\Domain\Menu\Models\Menu;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;
@@ -12,7 +12,7 @@ class CreateMenu extends Component
 {
     public $name, $section_menu = [], $sub_menu = [];
 
-    public function save()
+    public function save(): void
     {
         $this->validate();
 //        dd($this->name, $this->section_menu, $this->sub_menu);
@@ -34,12 +34,13 @@ class CreateMenu extends Component
                 'slug' => Str::slug($this->sub_menu->name),
                 'icon' => $this->sub_menu->icon
             ]);
+
         });
     }
 
     public function render()
     {
-        return view('livewire.menu.create-menu')->layout('layouts.app');
+        return view('livewire.menu.create-menu');
     }
 
     public function rules()

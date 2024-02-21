@@ -2,7 +2,7 @@
 
 namespace App\Livewire\Menu;
 
-use Domain\Menu\Models\Menu;
+use App\Domain\Menu\Models\Menu;
 use Livewire\Component;
 
 class MenuIndex extends Component
@@ -17,6 +17,6 @@ class MenuIndex extends Component
 
     public function render()
     {
-        return view('livewire.menu.index', ['menus' => $this->menus, 'resource' => $this->resource])->layout('layouts.app');
+        return view('livewire.menu.index', ['menus' => $this->menus, 'resource' => $this->resource]);
     }
 }

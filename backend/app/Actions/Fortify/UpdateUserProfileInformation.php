@@ -2,10 +2,9 @@
 
 namespace App\Actions\Fortify;
 
-use Domain\Users\Models\User;
+use App\Domain\Users\Models\User;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;
 use Laravel\Fortify\Contracts\UpdatesUserProfileInformation;
 

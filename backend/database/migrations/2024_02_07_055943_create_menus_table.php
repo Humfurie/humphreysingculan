@@ -20,7 +20,7 @@ return new class extends Migration {
 
         Schema::create('menu_sections', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(\Domain\Menu\Models\Menu::class)->constrained();
+            $table->foreignIdFor(\App\Domain\Menu\Models\Menu::class)->constrained();
             $table->string('name')->unique();
             $table->string('slug');
             $table->timestamps();
@@ -29,7 +29,7 @@ return new class extends Migration {
 
         Schema::create('sub_menus', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(\Domain\Menu\Models\MenuSection::class)->constrained();
+            $table->foreignIdFor(\App\Domain\Menu\Models\MenuSection::class)->constrained();
             $table->string('name');
             $table->string('slug');
             $table->string('icon')->nullable();

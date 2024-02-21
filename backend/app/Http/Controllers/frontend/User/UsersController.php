@@ -2,8 +2,7 @@
 
 namespace App\Http\Controllers\frontend\User;
 
-use Domain\Users\Models\User;
-use Illuminate\Support\Collection;
+use App\Domain\Users\Models\User;
 
 class UsersController
 {

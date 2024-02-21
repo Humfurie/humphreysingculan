@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('user_roles', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(\Domain\Users\Models\User::class)->constrained();
-            $table->foreignIdFor(\Domain\Roles\Models\Role::class)->constrained();
+            $table->foreignIdFor(\App\Domain\Users\Models\User::class)->constrained();
+            $table->foreignIdFor(\App\Domain\Roles\Models\Role::class)->constrained();
             $table->timestamps();
         });
     }

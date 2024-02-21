@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\frontend\Mail;
 
+use App\Domain\Users\Models\User;
 use App\Http\Controllers\Controller;
 use App\Notifications\SendMail;
-use Domain\Users\Models\User;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Notification;
 
