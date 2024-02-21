@@ -1,6 +1,6 @@
 <?php
 
-namespace Domain\Menu\Database\seeders;
+namespace App\Domain\Menu\Database\seeders;
 
 use App\Domain\Menu\Database\factories\MenuFactory;
 use App\Domain\Menu\Database\factories\MenuSectionFactory;

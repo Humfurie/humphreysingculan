@@ -1,6 +1,6 @@
 <div class="w-full h-full"
      x-data="{
-     create:false,
+     create:false
      }"
 >
     <div class="flex flex-col bg-white overflow-hidden shadow-xl sm:rounded-lg">

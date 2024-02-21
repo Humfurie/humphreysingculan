@@ -3,9 +3,9 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Domain\Menu\Database\seeders\MenuSeeder;
 use App\Domain\Roles\database\seeders\RoleSeeder;
 use App\Domain\Users\database\seeders\UserSeeder;
-use Domain\Menu\Database\seeders\MenuSeeder;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 

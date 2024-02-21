@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\frontend\Role;
 
 use App\Domain\Roles\Models\Role;
+use App\Domain\Roles\Requests\RoleFormRequest;
 use App\Http\Controllers\Controller;
-use Domain\Roles\Requests\RoleFormRequest;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Str;
 
