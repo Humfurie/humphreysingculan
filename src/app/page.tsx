@@ -1,17 +1,12 @@
 import Image from 'next/image'
 import Header from "@/components/home/header";
+import Main from "@/components/home/main";
 
 export default function Home() {
     return (
         <>
-            <main className="p-6">
-                <section>
-                    <h1>About Me</h1>
-                    <p>I'm Humphrey Singculan, I need work</p>
-                </section>
-                <aside>
-
-                </aside>
+            <main className="max-w-screen max-h-screen flex flex-wrap mx-auto justify-center items-center">
+               <Main/>
             </main>
         </>
     )
