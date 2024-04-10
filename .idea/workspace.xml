@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="separating backend from frontend">
-      <change afterPath="$PROJECT_DIR$/public/Humphrey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/humphrey_drawing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/humphrey_unpro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/mobile/nav-dropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/main.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="adding framer motions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712551219761</updated>
       <workItem from="1712551226253" duration="12139000" />
-      <workItem from="1712629902233" duration="19796000" />
+      <workItem from="1712629902233" duration="20025000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -211,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712551361708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding framer motions">
+      <created>1712683999328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712683999328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +234,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="separating backend from frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="separating backend from frontend" />
+    <MESSAGE value="adding framer motions" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding framer motions" />
   </component>
 </project>
