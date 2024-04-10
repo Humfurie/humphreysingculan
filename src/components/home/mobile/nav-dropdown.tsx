@@ -16,7 +16,7 @@ export const NavDropdown = () => {
                     }} className="w-5 h-px bg-white block"></motion.span>
                     <motion.span variants={{
                         closed: {opacity: 1},
-                        open: {opacity: 0}
+                        open: {opacity: 0, }
                     }} className="w-5 h-px bg-white block"></motion.span>
                     <motion.span variants={{
                         closed: {rotate: 0, y: 0},

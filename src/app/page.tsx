@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import Header from "@/components/home/header";
 import Main from "@/components/home/main";
+import {SkillSection} from "@/components/home/sections/skill-section";
 
 export default function Home() {
     return (
         <>
-            <main className="max-w-screen max-h-screen flex flex-wrap mx-auto justify-center items-center">
-               <Main/>
+            <main className="flex flex-wrap mx-auto justify-center items-center">
+                <Main/>
+                <SkillSection/>
             </main>
         </>
     )

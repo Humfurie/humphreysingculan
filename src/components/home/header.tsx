@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import {NavDropdown} from "@/components/home/mobile/nav-dropdown";
+import {MotionLi} from "@/components/home/lib/motion-li";
 
 const links = [
     {id: 1, url: "/", title: "Home"},
@@ -19,7 +19,7 @@ export default function Header() {
                             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                                 <Image src="/logo.png" alt="Humfurie" width={40} height={40}/>
                             </a>
-                            <NavDropdown />
+                            <NavDropdown/>
                         </section>
                         {/*End of mobile section*/}
 
@@ -27,13 +27,7 @@ export default function Header() {
                                  id="navbar-sticky">
                             <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                                 {links.map((link: { id: number, url: string, title: string }) => (
-                                    <li key={link.id}>
-                                        <Link href={link.url}
-                                           className="block text-white py-2 px-3 rounded text-black md:p-0"
-                                           aria-current="page">
-                                            {link.title}
-                                        </Link>
-                                    </li>
+                                    <MotionLi key={link.id} link={link}/>
                                 ))}
                             </ul>
                         </section>
