@@ -1,29 +1,36 @@
 import Image from "next/image";
-
+import {BannerTextSection} from "@/components/home/sections/banner-text-section";
 
 export default function Main() {
     return (
-        <section className="relative h-full w-full min-h-screen pt-16 ">
-            <div className="top-0 left-0 w-full h-full overflow-hidden">
+        <section className="relative h-full w-full min-h-screen">
+            <div className="primary-container max-xl:px-[20px] flex flex-col justify-center items-start md:justify-center">
+                <BannerTextSection/>
+            </div>
 
-                {/*Mobile Image*/}
+            <div>
+                {/* Mobile Image */}
                 <Image
                     src="/humps.png"
                     alt="Humphrey"
-                    fill
-                    objectFit="cover"
-                    className="object-cover shadow-md lg:hidden"
+                    height={1000}
+                    width={1000}
+                    className="block w-full h-full object-cover min-h-screen min-w-full shadow-md md:hidden"
                 />
-                {/*Mobile Image*/}
+                {/* Mobile Image */}
 
-                <Image
-                    src="/humps.jpg"
-                    alt="Humphrey"
-                    fill
-                    objectFit="cover"
-                    className="object-cover hidden shadow-md lg:flex"
-                />
+                <div className="min-h-screen min-w-full hidden md:flex">
+                    <Image
+                        src="/humps.jpg"
+                        alt="Humphrey"
+                        height={1000}
+                        width={1000}
+                        className="w-full h-full object-cover min-h-screen min-w-full shadow-md hidden md:flex"
+                    />
+                </div>
             </div>
+            <div className={`absolute top-0 w-full h-full bg-black/50 backdrop-blur-sm`}></div>
         </section>
+
     )
 }
