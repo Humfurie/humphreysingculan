@@ -1,12 +1,7 @@
 "use client"
-import Link from "next/link";
-import {motion, useInView} from "framer-motion";
-import {useRef} from "react";
+import {motion} from "framer-motion";
 import {svgs} from "@/components/svgs";
 export const SkillSection = () => {
-
-    const ref= useRef(null)
-    const isInView: boolean = useInView(ref);
 
     return (
         <section className="">

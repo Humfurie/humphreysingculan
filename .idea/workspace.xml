@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/public/Filament_Laravel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/sections/banner-text-section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/svgs.tsx" afterDir="false" />
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="updating banner and skills section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/sections/skill-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/sections/skill-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +199,7 @@
       <workItem from="1712726301767" duration="11736000" />
       <workItem from="1712768273249" duration="13479000" />
       <workItem from="1712856169608" duration="1124000" />
-      <workItem from="1712917409849" duration="26744000" />
+      <workItem from="1712917409849" duration="27718000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -239,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712756239956</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updating banner and skills section">
+      <created>1713000584643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713000584643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +269,7 @@
     <MESSAGE value="separating backend from frontend" />
     <MESSAGE value="adding framer motions" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="updating banner and skills section" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating banner and skills section" />
   </component>
 </project>
