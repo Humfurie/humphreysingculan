@@ -4,12 +4,12 @@ import {svgs} from "@/components/svgs";
 export const SkillSection = () => {
 
     return (
-        <section className="">
+        <section className="h-fullw-full">
             <div
                 className={`primary-container max-xl:px-[20px] py-[40px] md:py-[80px]`}>
                 <div className={`flex flex-col h-full w-full`}>
                     <h2 className="pb-[30px] text-center sm:text-left text-[30px] text-primary-black font-bold md:text-[45px]">
-                        <span className="text-primary-orange">S</span>kills
+                        <span className="text-primary-orange">K</span>nowledgeable in
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[35px]">
                         {svgs.map((skill:{name: string, icon: JSX.Element}, id: number) => {

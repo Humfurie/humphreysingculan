@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {BannerTextSection} from "@/components/home/sections/banner-text-section";
+import {BannerTextSection} from "@/components/home/sections/BannerTextSection";
 
 export default function Main() {
     return (

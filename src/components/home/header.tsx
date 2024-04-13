@@ -1,11 +1,12 @@
 import Image from "next/image";
 import {NavDropdown} from "@/components/home/mobile/nav-dropdown";
 import {MotionLi} from "@/components/home/lib/motion-li";
+import Link from "next/link";
 
 const links = [
-    {id: 1, url: "/", title: "Home"},
-    {id: 2, url: "/about", title: "About"},
-    {id: 3, url: "/contact", title: "Contact"}
+    {id: 1, url: "/", title: "Home", disabled: false},
+    {id: 2, url: "/about", title: "About", disabled: true},
+    {id: 3, url: "/contact", title: "Contact", disabled: true}
 ]
 export default function Header() {
     return (
@@ -16,9 +17,9 @@ export default function Header() {
 
                         {/*Start of mobile section*/}
                         <section className="flex justify-between sm:hidden w-full">
-                            <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                            <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                                 <Image src="/logo.png" alt="Humfurie" width={40} height={40}/>
-                            </a>
+                            </Link>
                             <NavDropdown/>
                         </section>
                         {/*End of mobile section*/}
@@ -26,7 +27,7 @@ export default function Header() {
                         <section className="hidden w-full md:flex md:w-auto md:order-1 lg:mx-20"
                                  id="navbar-sticky">
                             <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-                                {links.map((link: { id: number, url: string, title: string }) => (
+                                {links.map((link: { id: number, url: string, title: string, disabled:boolean }) => (
                                     <MotionLi key={link.id} link={link}/>
                                 ))}
                             </ul>

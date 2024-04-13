@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="updating banner and skills section">
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="updating  footer and mobile version nav">
+      <change afterPath="$PROJECT_DIR$/src/components/home/lib/StaggerMotionCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/sections/ExperienceSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/sections/skill-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/sections/skill-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/sections/BannerTextSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/sections/BannerTextSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/sections/SkillSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/sections/SkillSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -183,6 +195,7 @@
       <recent name="A:\GitHub\portfolio\frontend-nextjs\public\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\GitHub\portfolio\frontend-nextjs\src\components\home\sections" />
       <recent name="A:\GitHub\portfolio\frontend-nextjs\public" />
     </key>
   </component>
@@ -199,7 +212,7 @@
       <workItem from="1712726301767" duration="11736000" />
       <workItem from="1712768273249" duration="13479000" />
       <workItem from="1712856169608" duration="1124000" />
-      <workItem from="1712917409849" duration="27718000" />
+      <workItem from="1712917409849" duration="52694000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -236,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713000584643</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updating banner and skills section | refactor">
+      <created>1713001456481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713001456481</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updating  footer and mobile version nav">
+      <created>1713027297323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713027297323</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +297,8 @@
     <MESSAGE value="adding framer motions" />
     <MESSAGE value="refactor" />
     <MESSAGE value="updating banner and skills section" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating banner and skills section" />
+    <MESSAGE value="updating banner and skills section | refactor" />
+    <MESSAGE value="updating  footer and mobile version nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating  footer and mobile version nav" />
   </component>
 </project>
