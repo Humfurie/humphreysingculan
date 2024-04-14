@@ -17,11 +17,11 @@ export default function Footer() {
                         <div className="col-span-4 lg:grid lg:grid-cols-4 md:mb-0">
                             <div className="justify-start p-4 lg:col-span-3">
                                 <h1 className="text-black text-[20px] font-bold top-0 sm:text-[10px] md:text-[20px] sm:max-w-[60%] md:max-w-[65%] sm:leading-[20px] md:leading-[40px]">
-                                    Hi! I'm&nbsp;
+                                    Hi! I&apos;m&nbsp;
                                     <span className="text-primary-orange">H</span>umphrey
                                 </h1>
-                                <p>&emsp;I'm passionate about becoming a full-stack developer with a strong interest in
-                                    server-side technologies. I'm enthusiastic about learning and always eager to expand
+                                <p>&emsp;I&apos;m passionate about becoming a full-stack developer with a strong interest in
+                                    server-side technologies. I&apos;m enthusiastic about learning and always eager to expand
                                     my knowledge in this field. I believe in continuous improvement and enjoy tackling
                                     challenges to enhance my skills. </p>
                             </div>

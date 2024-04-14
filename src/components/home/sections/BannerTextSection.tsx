@@ -2,6 +2,7 @@
 import {AccountLinks} from "@/components/home/lib/AccountLinks";
 import {useEffect, useState} from "react";
 import {motion} from "framer-motion";
+import Link from "next/link";
 
 const data = [
     "Open to work!",
@@ -38,7 +39,7 @@ export const BannerTextSection = () => {
                         {currentItem}
                     </motion.p>
                     <div className={`group`}>
-                        <button className="btn group text-white text-center w-fit">Resume</button>
+                        <Link href="https://drive.google.com/file/d/1N1zhYOnmAZhh0zEmafc6U6IV61QcAfb9/view" className="btn group text-white text-center w-fit">Resume</Link>
                     </div>
 
                 </div>
