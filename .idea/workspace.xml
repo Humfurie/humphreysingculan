@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="updating  footer and mobile version nav">
-      <change afterPath="$PROJECT_DIR$/src/components/home/lib/StaggerMotionCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/sections/ExperienceSection.tsx" afterDir="false" />
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/src/components/home/IndexPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/sections/BannerTextSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/sections/BannerTextSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/sections/SkillSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/sections/SkillSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/lib/StaggerMotionCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/lib/StaggerMotionCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,8 +166,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "homepage",
-    "last_opened_file_path": "A:/GitHub/portfolio/frontend-nextjs/public",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "A:/GitHub/portfolio/frontend-nextjs/src/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -191,6 +190,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\GitHub\portfolio\frontend-nextjs\src\app" />
       <recent name="A:\GitHub\portfolio\frontend-nextjs\public" />
       <recent name="A:\GitHub\portfolio\frontend-nextjs\public\icons" />
     </key>
@@ -213,6 +213,8 @@
       <workItem from="1712768273249" duration="13479000" />
       <workItem from="1712856169608" duration="1124000" />
       <workItem from="1712917409849" duration="52694000" />
+      <workItem from="1713116879541" duration="31000" />
+      <workItem from="1713117669012" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -263,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713027297323</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updating lots of files">
+      <created>1713113666229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713113666229</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor">
+      <created>1713116831593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713116831593</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,10 +311,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="separating backend from frontend" />
     <MESSAGE value="adding framer motions" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="updating banner and skills section" />
     <MESSAGE value="updating banner and skills section | refactor" />
     <MESSAGE value="updating  footer and mobile version nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating  footer and mobile version nav" />
+    <MESSAGE value="updating lots of files" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>

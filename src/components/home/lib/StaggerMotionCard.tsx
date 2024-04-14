@@ -19,7 +19,7 @@ export const StaggerMotionCard = ({experience, index}: any) => {
                         scale: scrollYProgress,
                         opacity: scrollYProgress
                     }}
-                    className="text-xl font-bold text-white">
+                    className="primary-container text-xl font-bold text-white">
                     {experience.start} - {experience.end}
                 </motion.h2>
                 <motion.div
