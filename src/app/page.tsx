@@ -1,12 +1,14 @@
-import Image from 'next/image'
-import Header from "@/components/home/header";
 import Main from "@/components/home/main";
+import {SkillSection} from "@/components/home/sections/SkillSection";
+import {ExperienceSection} from "@/components/home/sections/ExperienceSection";
 
 export default function Home() {
     return (
         <>
-            <main className="max-w-screen max-h-screen flex flex-wrap mx-auto justify-center items-center">
-               <Main/>
+            <main>
+                <Main/>
+                <SkillSection/>
+                <ExperienceSection />
             </main>
         </>
     )

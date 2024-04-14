@@ -13,6 +13,8 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-svg": "^16.1.34",
     "use-dimensions": "^2.0.0"
   },
   "devDependencies": {
