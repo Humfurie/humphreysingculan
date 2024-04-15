@@ -2,7 +2,7 @@
 node_modules
 
 # Ignore build output directories
-.next
+#.next
 
 # Ignore development-specific files
 .vscode

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="removing standalone in next.config.js">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="adding .dockerignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -212,7 +209,7 @@
       <workItem from="1712917409849" duration="52694000" />
       <workItem from="1713116879541" duration="31000" />
       <workItem from="1713117669012" duration="749000" />
-      <workItem from="1713173447458" duration="1400000" />
+      <workItem from="1713173447458" duration="1616000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -291,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713177278326</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding .dockerignore">
+      <created>1713177397435</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177397435</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +334,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="changing title, description and icon" />
     <MESSAGE value="removing standalone in next.config.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing standalone in next.config.js" />
+    <MESSAGE value="adding .dockerignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding .dockerignore" />
   </component>
 </project>
