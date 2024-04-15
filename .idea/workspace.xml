@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="changing title, description and icon">
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="removing standalone in next.config.js">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +212,7 @@
       <workItem from="1712917409849" duration="52694000" />
       <workItem from="1713116879541" duration="31000" />
       <workItem from="1713117669012" duration="749000" />
-      <workItem from="1713173447458" duration="1060000" />
+      <workItem from="1713173447458" duration="1400000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713118408028</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="removing standalone in next.config.js">
+      <created>1713177278326</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177278326</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +329,7 @@
     <MESSAGE value="updating lots of files" />
     <MESSAGE value="refactor" />
     <MESSAGE value="changing title, description and icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing title, description and icon" />
+    <MESSAGE value="removing standalone in next.config.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing standalone in next.config.js" />
   </component>
 </project>

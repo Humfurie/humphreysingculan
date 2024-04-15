@@ -1,0 +1,18 @@
+# Ignore Node.js dependencies
+node_modules
+
+# Ignore build output directories
+.next
+
+# Ignore development-specific files
+.vscode
+.idea
+*.log
+
+# Ignore files generated during development or testing
+coverage
+.nyc_output
+
+# Ignore environment-specific files (e.g., .env)
+.env
+
