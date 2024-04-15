@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="modifying .dockerignore">
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="modifying next.config.js and package.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +211,7 @@
       <workItem from="1712917409849" duration="52694000" />
       <workItem from="1713116879541" duration="31000" />
       <workItem from="1713117669012" duration="749000" />
-      <workItem from="1713173447458" duration="2624000" />
+      <workItem from="1713173447458" duration="4086000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -307,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713177575826</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="modifying next.config.js and package.json">
+      <created>1713179030534</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713179030534</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +352,7 @@
     <MESSAGE value="removing standalone in next.config.js" />
     <MESSAGE value="adding .dockerignore" />
     <MESSAGE value="modifying .dockerignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifying .dockerignore" />
+    <MESSAGE value="modifying next.config.js and package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifying next.config.js and package.json" />
   </component>
 </project>

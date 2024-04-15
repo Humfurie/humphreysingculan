@@ -16,3 +16,7 @@ coverage
 # Ignore environment-specific files (e.g., .env)
 .env
 
+Dockerfile
+.dockerignore
+README.md
+
