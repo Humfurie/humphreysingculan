@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLaravel, FaDocker } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import {SiAdonisjs, SiNextdotjs, SiPhp, SiTailwindcss, SiJquery, SiAxios, SiVuedotjs } from "react-icons/si";
+import {SiAdonisjs, SiNextdotjs, SiPhp, SiTailwindcss, SiJquery, SiAxios, SiVuedotjs, SiNginx } from "react-icons/si";
 import {Filament} from "../../public/Filament_Laravel";
 export const svgs: { name: string, icon: JSX.Element }[] = [
     {
@@ -48,6 +48,11 @@ export const svgs: { name: string, icon: JSX.Element }[] = [
         name: "Axios",
         icon: <SiAxios  className="tech"/>
     },
+    {
+        name: "Nginx",
+        icon: <SiNginx  className="tech"/>
+    },
+
     // {
     //     name: "Vue",
     //     icon: <SiVuedotjs  className="tech"/>
