@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/src/components/home/IndexPage.tsx" afterDir="false" />
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="changing title, description and icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/lib/StaggerMotionCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/lib/StaggerMotionCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +172,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "A:\\GitHub\\portfolio\\frontend-nextjs\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "A:\\docker\\humphreysingculan\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -214,7 +211,8 @@
       <workItem from="1712856169608" duration="1124000" />
       <workItem from="1712917409849" duration="52694000" />
       <workItem from="1713116879541" duration="31000" />
-      <workItem from="1713117669012" duration="541000" />
+      <workItem from="1713117669012" duration="749000" />
+      <workItem from="1713173447458" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -279,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713116831593</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changing title, description and icon">
+      <created>1713118408028</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713118408028</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +321,7 @@
     <MESSAGE value="updating  footer and mobile version nav" />
     <MESSAGE value="updating lots of files" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="changing title, description and icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing title, description and icon" />
   </component>
 </project>
