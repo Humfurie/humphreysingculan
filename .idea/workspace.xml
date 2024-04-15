@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="updating .dockerignore">
+    <list default="true" id="b84c5a0b-9fbd-4312-bc1d-bccd332166f2" name="Changes" comment="adding nginx svgs.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/svgs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svgs.tsx" afterDir="false" />
     </list>
@@ -212,7 +212,7 @@
       <workItem from="1712917409849" duration="52694000" />
       <workItem from="1713116879541" duration="31000" />
       <workItem from="1713117669012" duration="749000" />
-      <workItem from="1713173447458" duration="5056000" />
+      <workItem from="1713173447458" duration="6426000" />
     </task>
     <task id="LOCAL-00001" summary="separating backend from frontend">
       <created>1712551361708</created>
@@ -319,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713180610775</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adding nginx svgs.tsx">
+      <created>1713184272218</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713184272218</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +369,7 @@
     <MESSAGE value="modifying .dockerignore" />
     <MESSAGE value="modifying next.config.js and package.json" />
     <MESSAGE value="updating .dockerignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating .dockerignore" />
+    <MESSAGE value="adding nginx svgs.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding nginx svgs.tsx" />
   </component>
 </project>
