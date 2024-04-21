@@ -1,1 +1,3 @@
-##Portfolio Using next js
+## Portfolio Using Nextjs and Tailwind CSS
+
+## Hosted on my linux pc using docker containers
