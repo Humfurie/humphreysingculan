@@ -10,7 +10,7 @@ services:
     environment:
         - NODE_ENV=production
     volumes:
-        - /home/humphrey/Desktop/Websites/humphreysingculan/blog-portfolio:/app
+        - ./:/app
         - /app/node_modules
         - /app/.next
     ports:
