@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  app:
+    image: humphreysingculan
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: humphreysingculan
+    restart: unless-stopped
+    environment:
+        - NODE_ENV=production
+    volumes:
+        - /home/humphrey/Desktop/Websites/humphreysingculan/blog-portfolio:/app
+        - /app/node_modules
+        - /app/.next
+    ports:
+      - "40001:3000"
